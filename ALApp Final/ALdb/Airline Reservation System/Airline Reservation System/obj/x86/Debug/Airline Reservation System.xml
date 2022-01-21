@@ -1,0 +1,456 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AirlineReservationSystem
+</name>
+</assembly>
+<members>
+<member name="T:Airline_Reservation_System.ALdbDataSet1.tblChequeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblCreditCardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblCustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblFlightDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblPaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblReservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblUser1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblUsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblChequeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblCreditCardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblCustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblFlightRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblPaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblReservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblUser1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblUsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblChequeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblCreditCardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblCustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblFlightRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblPaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblReservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblUser1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1.tblUsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.tblChequeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.tblCreditCardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.tblCustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.tblFlightTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.tblPaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.tblReservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.tblUser1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.tblUsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Airline_Reservation_System.ALdbDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Airline_Reservation_System.ALdbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Airline_Reservation_System.ALdbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet1TableAdapters.TableAdapterManager.UpdateAll(Airline_Reservation_System.ALdbDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblChequeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblCreditCardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblCustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblFlightDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblPaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblReservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblUser1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblUsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblChequeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblCreditCardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblCustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblFlightRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblPaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblReservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblUser1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblUsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblChequeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblCreditCardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblCustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblFlightRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblPaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblReservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblUser1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3.tblUsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.tblChequeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.tblCreditCardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.tblCustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.tblFlightTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.tblPaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.tblReservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.tblUser1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.tblUsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Airline_Reservation_System.ALdbDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Airline_Reservation_System.ALdbDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Airline_Reservation_System.ALdbDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet3TableAdapters.TableAdapterManager.UpdateAll(Airline_Reservation_System.ALdbDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet.tblCustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet.tblCustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet.tblCustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSetTableAdapters.tblCustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Airline_Reservation_System.ALdbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Airline_Reservation_System.ALdbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Airline_Reservation_System.ALdbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSetTableAdapters.TableAdapterManager.UpdateAll(Airline_Reservation_System.ALdbDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet2.tblFlightDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet2.tblFlightRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet2.tblFlightRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet2TableAdapters.tblFlightTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Airline_Reservation_System.ALdbDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Airline_Reservation_System.ALdbDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Airline_Reservation_System.ALdbDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Airline_Reservation_System.ALdbDataSet2TableAdapters.TableAdapterManager.UpdateAll(Airline_Reservation_System.ALdbDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Airline_Reservation_System.ALdbDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Airline_Reservation_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Airline_Reservation_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Airline_Reservation_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

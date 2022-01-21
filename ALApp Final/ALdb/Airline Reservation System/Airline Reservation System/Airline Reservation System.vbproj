@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AEF60202-0150-4654-A4F8-9877670304D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Airline_Reservation_System.My.MyApplication</StartupObject>
+    <RootNamespace>Airline_Reservation_System</RootNamespace>
+    <AssemblyName>Airline Reservation System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Airline Reservation System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Airline Reservation System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>Off</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Text</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>images.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>42B9E7A78440D04C4E10C6C4B8336F5EDF05E8FA</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Airline Reservation System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge.Video">
+      <HintPath>..\..\..\..\Toturial\All Aforge Library Release\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\..\..\..\Toturial\All Aforge Library Release\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.FFMPEG">
+      <HintPath>..\..\..\..\Toturial\All Aforge Library Release\AForge.Video.FFMPEG.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 11.0\ReportViewer\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSet\ALdbDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ALdbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ALdbDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ALdbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ALdbDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ALdbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ALdbDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ALdbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Connection\AboutAirLine.Designer.vb">
+      <DependentUpon>AboutAirLine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Connection\AboutAirLine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connection\Connection.Designer.vb">
+      <DependentUpon>Connection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Connection\Connection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connection\SQLcon.vb" />
+    <Compile Include="GUI\AddCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AddCustomer.Designer.vb">
+      <DependentUpon>AddCustomer.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AddFlight.Designer.vb">
+      <DependentUpon>AddFlight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AddFlight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AddPayment.Designer.vb">
+      <DependentUpon>AddPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AddPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CancellTicket.Designer.vb">
+      <DependentUpon>CancellTicket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CancellTicket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ChangeUsers.Designer.vb">
+      <DependentUpon>ChangeUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ChangeUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ChequeDetails.Designer.vb">
+      <DependentUpon>ChequeDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ChequeDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CreateUsersLogin.Designer.vb">
+      <DependentUpon>CreateUsersLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CreateUsersLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CreditCardDetails.Designer.vb">
+      <DependentUpon>CreditCardDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CreditCardDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EditUser.Designer.vb">
+      <DependentUpon>EditUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EditUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Enquiry.Designer.vb">
+      <DependentUpon>Enquiry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Enquiry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoginWindow.Designer.vb">
+      <DependentUpon>LoginWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LoginWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainWindow.Designer.vb">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ReportWindow.Designer.vb">
+      <DependentUpon>ReportWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ReportWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Reservation.Designer.vb">
+      <DependentUpon>Reservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Reservation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\UpdateCustomer.Designer.vb">
+      <DependentUpon>UpdateCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UpdateCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\UpdateFlight.Designer.vb">
+      <DependentUpon>UpdateFlight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UpdateFlight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\UserWindow.Designer.vb">
+      <DependentUpon>UserWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UserWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Connection\AboutAirLine.resx">
+      <DependentUpon>AboutAirLine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connection\Connection.resx">
+      <DependentUpon>Connection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\CustomerReport.rdlc" />
+    <EmbeddedResource Include="bin\Debug\FlightReport.rdlc" />
+    <EmbeddedResource Include="GUI\AddCustomer.resx">
+      <DependentUpon>AddCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AddFlight.resx">
+      <DependentUpon>AddFlight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AddPayment.resx">
+      <DependentUpon>AddPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CancellTicket.resx">
+      <DependentUpon>CancellTicket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ChangeUsers.resx">
+      <DependentUpon>ChangeUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ChequeDetails.resx">
+      <DependentUpon>ChequeDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CreateUsersLogin.resx">
+      <DependentUpon>CreateUsersLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CreditCardDetails.resx">
+      <DependentUpon>CreditCardDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EditUser.resx">
+      <DependentUpon>EditUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Enquiry.resx">
+      <DependentUpon>Enquiry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LoginWindow.resx">
+      <DependentUpon>LoginWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainWindow.resx">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ReportWindow.resx">
+      <DependentUpon>ReportWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Reservation.resx">
+      <DependentUpon>Reservation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UpdateCustomer.resx">
+      <DependentUpon>UpdateCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UpdateFlight.resx">
+      <DependentUpon>UpdateFlight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserWindow.resx">
+      <DependentUpon>UserWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\ReservationReport.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSet\ALdbDataSet.xsc">
+      <DependentUpon>ALdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ALdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ALdbDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ALdbDataSet.xss">
+      <DependentUpon>ALdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ALdbDataSet2.xsc">
+      <DependentUpon>ALdbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ALdbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ALdbDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ALdbDataSet2.xss">
+      <DependentUpon>ALdbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ALdbDataSet3.xsc">
+      <DependentUpon>ALdbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ALdbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ALdbDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ALdbDataSet3.xss">
+      <DependentUpon>ALdbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataSet\ALdbDataSet1.xsc">
+      <DependentUpon>ALdbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ALdbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ALdbDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ALdbDataSet1.xss">
+      <DependentUpon>ALdbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="App.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="images.ico" />
+    <Content Include="Resources\Aeroplane-HD-Wallpapers-For-PC.jpg" />
+    <Content Include="Resources\indairline.jpg" />
+    <Content Include="Resources\Vista_icons_04.png" />
+    <None Include="Resources\images %2838%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

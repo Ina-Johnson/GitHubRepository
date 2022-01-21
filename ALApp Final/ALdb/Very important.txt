@@ -1,0 +1,22 @@
+User Name : Admin
+
+Password : 12345678
+
+
+Please read carefully
+
+1-- make sure you have sql server install on your client machine.
+
+2-- open sql server management studio and connect to your database engine
+    using window authentication.
+
+3-- go to your object explorer
+
+4-- right click on the databases folder and select attach,attach databases window 
+    dialog will open.
+
+5-- on the attach window dialog select the add button and navigate to your flash drive
+    and select the ALdb.dmf file and click ok.
+
+6-- go to your application and enter the name of your server and database "ALdb" and click
+    save config,Restart your application and click connect.
